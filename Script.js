@@ -42,7 +42,9 @@ Delete.onclick = function () {
     else{
         pass = false
     }
-
+    if (N_Pontos != N_Operacoes && N_Operacoes >= 1){
+        N_Pontos++;
+    }
     if(num.length < 12){
         document.getElementById("saida2").style.fontSize = "30px";
     }
