@@ -3,11 +3,6 @@ html {
     display: flex;
     justify-content: center;
 }
-@media screen and (max-width: 650px){
-    html {
-        flex-direction: column;
-    }
-}
 form.Cauculadora {
     margin-top: 5%;
     background-color: rgb(211, 218, 207);
