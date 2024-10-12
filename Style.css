@@ -1,0 +1,263 @@
+html {
+    background-color: wheat;
+    display: flex;
+    justify-content: center;
+}
+form.Cauculadora {
+    margin-top: 5%;
+    background-color: rgb(211, 218, 207);
+    width: 400px;
+    height: 600px;
+    border-radius: 15px;
+    border: 1px solid gray;
+    border-top: 4px solid white;
+    border-left: 4px solid white;
+    border-right: 4px solid rgba(0, 0, 0, 0.479);
+    border-bottom: 5px solid rgba(0, 0, 0, 0.432);
+    user-select: none;
+}
+div.saida1 {
+    background-color: rgb(167, 185, 194);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border: 1px solid gray;
+    width: 399px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+}
+p#saida2 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(28, 219, 3, 0.185);
+    width: 300px;
+    height: 46px;
+    margin-top: 28px;
+    border: 1px solid gray;
+    text-align: end;
+    padding-top: 16px;
+    padding-right: 25px;
+    user-select: text;
+}
+div.linha {
+    height: 30px;
+    width: 2px;
+    background-color: rgb(73, 114, 218);
+    position: absolute;
+    margin-left: 280px;
+    margin-top: 45px;
+    animation: LinhaPisca 1s linear infinite;
+    user-select: none;
+}
+@keyframes LinhaPisca {
+    0%{
+        opacity: 100;
+    }
+    25%{
+        opacity: 100;
+    }
+    50%{
+        opacity: 0;
+    }
+    80%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+#Divide, #Multiplica {
+    background-color: rgb(96, 134, 231);
+    color: white;
+    margin-top: 35px;
+    width: 70px;
+    height: 50px;
+    border-radius: 15px;
+    margin-left: 21px;
+    font-size: 25px;
+    font-family: cursive;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    user-select: none;
+}
+#C {
+    background-color: rgb(96, 134, 231);
+    color: white;
+    margin-top: 35px;
+    width: 168px;
+    height: 50px;
+    border-radius: 15px;
+    margin-left: 22px;
+    font-size: 25px;
+    font-family: cursive;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    user-select: none;
+}
+#Soma, #Subtracao, #b9, #b6, #b3, #Float, #b8, #b5, #b2, #b7, #b4, #b1 {
+    background-color: rgb(57, 57, 57);
+    color: white;
+    margin-top: 30px;
+    width: 70px;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 25px;
+    font-family: cursive;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    user-select: none;
+}
+div.colum {
+    display: flex;
+    flex-direction: column;
+    width: 70px;
+    margin-left: auto;
+    margin-right: 20px;
+    user-select: none;
+}
+div.colum2 {
+    display: flex;
+    flex-direction: column;
+    width: 70px;
+    margin-left: auto;
+    margin-right: 115px;
+    margin-top: -340px;
+    user-select: none;
+}
+div.colum3 {
+    display: flex;
+    flex-direction: column;
+    width: 70px;
+    margin-left: auto;
+    margin-right: 210px;
+    margin-top: -320px;
+    user-select: none;
+}
+div.colum4 {
+    display: flex;
+    flex-direction: column;
+    width: 70px;
+    margin-left: auto;
+    margin-right: 308px;
+    margin-top: -240px;
+    user-select: none;
+}
+#Rezultado {
+    background-color: brown;
+    margin-top: 30px;
+    height: 150px;
+    border-radius: 15px;
+    color: white;
+    font-size: 25px;
+    font-family: cursive;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    user-select: none;
+}
+#b0 {
+    background-color: rgb(57, 57, 57);
+    color: white;
+    margin-top: 30px;
+    width: 168px;
+    height: 50px;
+    border-radius: 15px;
+    margin-left: 22px;
+    font-size: 25px;
+    font-family: cursive;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    user-select: none;
+}
+.Fundo_Preto {
+    width: 245px;
+    height: 240px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.096);
+    margin-top: 50px;
+    margin-left: 580px;
+}
+.Fundo_amarelo{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    background-color: rgb(235, 181, 45);
+    margin-top: -18px;
+    margin-left: -15px;
+}
+.Aluno {
+    width: 268px;
+    height: 230px;
+    position: absolute;
+    background-color: rgb(255, 223, 41);
+    margin-left: -20px;
+    margin-top: 10px;
+    transform: rotate(1.5deg);
+    border-bottom-right-radius: 60px;
+}
+.topde {
+    margin-top: -11px;
+    width: 268px;
+    height: 40px;
+    position: absolute;
+    background-color: rgb(250, 231, 124);
+    transform: rotate(-1deg);
+}
+.fita01, .fita02 {
+    width: 60px;
+    height: 20px;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.295);
+}
+.fita01 {
+    margin-left: 30px;
+    margin-top: -10px;
+    transform: rotate(-5deg);
+}
+.fita02 {
+    margin-left: 180px;
+    margin-top: -10px;
+    transform: rotate(5deg);
+}
+.dobra {
+    width: 24px;
+    height: 50px;
+    position: absolute;
+    background-color: rgb(255, 223, 41);
+    margin-left: 244.4px;
+    margin-top: 135px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    transform: rotate(-2deg);
+}
+.dobra2 {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    background-color: rgb(255, 223, 41);
+    border-radius: 100px;
+    margin-left: 100px;
+    margin-top: 79.5px;
+}
+.dobra3 {
+    width: 85px;
+    height: 55px;
+    position: absolute;
+    margin-left: 182.5px;
+    margin-top: 175px;
+    background-color: rgb(238, 208, 38);
+    border-bottom-right-radius: 50px;
+    z-index: -1;
+}
+.Nome_Turma {
+    position: absolute;
+    font-family: cursive;
+    margin-left: 20px;
+    margin-top: 50px;
+    z-index: 5;
+    text-decoration: underline;
+    line-height: 40px;
+    text-underline-position: under;
+    transform: rotate(-0.3deg);
+}
+
