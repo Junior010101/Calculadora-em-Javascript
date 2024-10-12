@@ -36,17 +36,11 @@ Delete.onclick = function () {
             N_Pontos++;
         }
     }
-    if(N_Pontos == N_Operacoes){
+    if(N_Pontos == N_Operacoes || N_Pontos + 1 == N_Operacoes){
         pass = true
     }
     else{
         pass = false
-    }
-    if (N_Pontos < N_Operacoes){
-        N_Pontos++;
-    }
-    else{
-        N_Pontos--;
     }
     if(num.length < 12){
         document.getElementById("saida2").style.fontSize = "30px";
