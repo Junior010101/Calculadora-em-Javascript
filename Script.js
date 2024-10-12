@@ -36,7 +36,7 @@ Delete.onclick = function () {
             N_Pontos++;
         }
     }
-    if(N_Pontos <= N_Operacoes){
+    if(N_Pontos == N_Operacoes){
         pass = true
     }
     else{
